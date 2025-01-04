@@ -1,0 +1,59 @@
+
+
+.add-course-plan {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 250px;
+    
+    border: 1px solid black;
+    border-radius: 8px;
+    /* background-color: #f9f9f9; */
+}
+
+.add-course-plan h2 {
+    text-align: center;
+}
+
+.add-course-plan form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-course-plan form div {
+    margin-bottom: 15px;
+}
+
+.add-course-plan label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.add-course-plan input,
+.add-course-plan select {
+    width: 100%;
+    font-size: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-course-plan button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-course-plan button:hover {
+    background-color: #0056b3;
+}
+
+.add-course-plan p {
+    text-align: center;
+    font-weight: bold;
+    color: green;
+}

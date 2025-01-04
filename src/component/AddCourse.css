@@ -1,0 +1,72 @@
+/* General container styling */
+
+
+.add-course-container {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    /* background-color:pink,violet; */
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+
+.add-course-container h2 {
+    text-align: center;
+    color:black;
+}
+
+
+.add-course-form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color:black;
+}
+
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+
+.submit-btn {
+    background-color:blue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.submit-btn:hover {
+    background-color: blue;
+}
+
+.message {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: green;
+}
